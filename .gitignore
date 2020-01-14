@@ -1,0 +1,9 @@
+node_modules
+build
+dist
+.cache
+.DS_Store
+lib
+yarn-error.log
+public
+.env

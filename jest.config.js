@@ -8,5 +8,5 @@ module.exports = {
     '.(ts|tsx)': 'ts-jest',
   },
   testRegex: TEST_REGEX,
-  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/dist/']
-}
+  testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/dist/'],
+};

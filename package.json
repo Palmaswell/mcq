@@ -1,7 +1,7 @@
 {
   "name": "mcq",
   "version": "1.0.0",
-  "description": "Meta CSS Queries",
+  "description": "Meta CSS Queries (mcq)",
   "main": "index.js",
   "repository": "git@github.com:Palmaswell/mcq.git",
   "author": "Mauricio Palma <mauricio.palma@woodlikeocean.com>",
@@ -11,7 +11,7 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "test": "jest",
-    "test:coverage": "npm test -- --coverage",
+    "test:coverage": "yarn test -- --coverage",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'"
   },
   "devDependencies": {
@@ -19,10 +19,19 @@
     "@testing-library/react": "^9.4.0",
     "@types/jest": "^24.0.25",
     "@types/jest-axe": "^3.2.1",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.3",
     "jest": "^24.9.0",
     "jest-axe": "^3.2.0",
     "prettier": "^1.19.1",
     "ts-jest": "^24.3.0",
     "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "graphql": "^14.6.0"
   }
 }

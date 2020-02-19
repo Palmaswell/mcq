@@ -1,35 +1,33 @@
 {
   "compilerOptions": {
-    "alwaysStrict": false,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": "src",
-    "declaration": true,
-    "declarationMap": true,
+    "target": "es2017",
+    "lib": [
+      "dom",
+      "es2017",
+      "esnext"
+    ],
+    "allowJs": true,
     "esModuleInterop": true,
-    "experimentalDecorators": true,
+    "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "importHelpers": true,
-    "jsx": "react",
-    "lib": ["es5", "es6", "es7", "es2017", "dom"],
-    "module": "commonjs",
+    "module": "esnext",
     "moduleResolution": "node",
-    "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noImplicitUseStrict": true,
+    "resolveJsonModule": true,
+    "jsx": "react",
+    "sourceMap": true,
+    "declaration": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "./lib",
-    "preserveConstEnums": true,
-    "pretty": true,
-    "removeComments": true,
-    "rootDirs": ["./src"],
-    "sourceMap": true,
-    "strict": true,
-    "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "target": "es6",
-    "watch": false
-  }
+    "experimentalDecorators": true,
+    "noEmit": true,
+    "incremental": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
 }
